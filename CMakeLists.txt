@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(PointerExample)
+project(CharArrayModifier)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 20)
@@ -26,7 +26,7 @@ add_library(main
 )
 
 # Add the test executable
-add_executable(PointerExample
+add_executable(CharArrayModifier
     ../src/main.cpp
     
     )
